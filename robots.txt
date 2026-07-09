@@ -1,0 +1,14 @@
+# Pasemóvil — robots.txt
+# ESTADO ACTUAL: la página NO debe indexarse todavía.
+# Al momento del lanzamiento:
+#   1) Borra las dos líneas "Disallow: /" de abajo.
+#   2) Elimina la etiqueta <meta name="robots" content="noindex, nofollow"> de index.html.
+
+User-agent: *
+Disallow: /
+
+# --- Configuración para cuando la página SÍ deba indexarse ---
+# User-agent: *
+# Allow: /
+
+Sitemap: https://www.pasemovil.com/sitemap.xml
